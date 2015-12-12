@@ -1,12 +1,6 @@
 <html>
 <head>
-<title>Spring MVC Tutorial by Crunchify - Hello World Spring MVC
-	Example</title>
-<style type="text/css">
-body {
-	background-image: url('http://crunchify.com/bg.png');
-}
-</style>
+<title>All2Move -> Begin</title>
 </head>
 <body>${message}
  
@@ -14,7 +8,7 @@ body {
 	<br>
 	<div style="font-family: verdana; padding: 10px; border-radius: 10px; font-size: 12px; text-align:center;">
  
-		Hello World by <a href="https://google.com">Tecbus</a>.
+		Hello World by <a href="https://notfound.com">All2Move</a>.
 		
 	</div>
 </body>
