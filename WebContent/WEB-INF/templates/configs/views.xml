@@ -5,13 +5,11 @@
 <tiles-definitions>
  
     <definition name="index" extends="DefaultTemplate">
-        <put-attribute name="body"    
-        value="/WEB-INF/jsp/welcome.jsp" />
+        <put-attribute name="body" value="/WEB-INF/index.jsp" />
     </definition>
  
-    <definition name="personList" extends="DefaultTemplate">
-        <put-attribute name="body"    
-        value="/WEB-INF/jsp/info/contact.jsp" />
+    <definition name="welcome" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/jsp/welcome.jsp" />
     </definition>
     
 </tiles-definitions>
