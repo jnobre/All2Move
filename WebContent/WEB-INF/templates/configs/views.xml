@@ -4,11 +4,13 @@
     "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 <tiles-definitions>
  
-    <definition name="index" extends="DefaultTemplate">
-        <put-attribute name="body" value="/WEB-INF/index.jsp" />
+    <definition name="index" extends="base.definition">
+    	<put-attribute name="title" value="Home" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
     </definition>
  
-    <definition name="welcome" extends="DefaultTemplate">
+    <definition name="welcome" extends="base.definition">
+        <put-attribute name="title" value="Welcome.." />  
         <put-attribute name="body" value="/WEB-INF/jsp/welcome.jsp" />
     </definition>
     

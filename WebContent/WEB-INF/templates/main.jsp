@@ -6,20 +6,20 @@
 
 <!-- Header -->
 <head>
-	<tiles:insertAttribute name="header" />
+		<tiles:insertAttribute name="header" />
 </head>
 
 <body class="home">
-    
-    <!-- Menu -->
-	<tiles:insertAttribute name="menu" />
-	
-	<header id="head" class="secondary"></header> <!-- TODO: rever... -->
-	<!-- Body -->
-	<tiles:insertAttribute name="body" />
-	
-	<!-- Footer -->
-	<tiles:insertAttribute name="footer" />
-	
+		    
+		    <!-- Menu -->
+			<tiles:insertAttribute name="menu" />
+			
+			<header id="head" class="secondary"></header> <!-- TODO: rever... -->
+			<!-- Body -->
+			<tiles:insertAttribute name="body" />
+			
+			<!-- Footer -->
+			<tiles:insertAttribute name="footer" />
+			
 </body>
 </html>

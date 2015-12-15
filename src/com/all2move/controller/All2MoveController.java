@@ -1,6 +1,7 @@
 package com.all2move.controller;
  
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
  
@@ -12,10 +13,10 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class All2MoveController {
 	
-	@RequestMapping("/index")
-	public String index() 
+	@RequestMapping(value = { "/", "/index" })
+	public String index(Model model) 
 	{
-		return "Hello...";	
+		return "index";	
 	}
 	
 	@RequestMapping("/welcome")
