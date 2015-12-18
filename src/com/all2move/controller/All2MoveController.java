@@ -12,7 +12,8 @@ import org.springframework.web.servlet.ModelAndView;
  
 @Controller
 public class All2MoveController {
-	
+
+
 	@RequestMapping(value = { "/", "/index" })
 	public String index(Model model) 
 	{
@@ -25,6 +26,30 @@ public class All2MoveController {
 		String message = "<br><div style='text-align:center;'>"
 				+ "<h3>********** Spring Mvc + Apache Tiles on fire! **********</div><br><br>";
 		return new ModelAndView("welcome", "message", message);
+	}
+	
+	@RequestMapping("/planear")
+	public String PlanearRota()
+	{
+		return "planear";
+	}
+	
+	@RequestMapping("/pertodesi")
+	public String PertodeSi()
+	{
+		return "pertodesi";
+	}
+	
+	@RequestMapping("/contacto")
+	public String Contacto()
+	{
+		return "contacto";
+	}
+	
+	@RequestMapping("/faq")
+	public String Ajuda()
+	{
+		return "faq";
 	}
 	
 }

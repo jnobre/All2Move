@@ -50,7 +50,13 @@
 		    <version>2.2</version>
 		    <scope>provided</scope>
 		</dependency>
-
+		
+	<dependency>
+		<groupId>jstl</groupId>
+		<artifactId>jstl</artifactId>
+		<version>1.2</version>
+	</dependency>
+		
  	   <!-- Servlet JSP JSTL API -->
        <!-- http://mvnrepository.com/artifact/javax.servlet.jsp.jstl/javax.servlet.jsp.jstl-api -->
        <dependency>

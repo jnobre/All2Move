@@ -14,7 +14,7 @@
  	
  	
 	<context:component-scan base-package="com.all2move.controller" />
- 	<context:annotation-config />
+ 	<!--  <context:annotation-config /> -->
  	<mvc:resources mapping="/resources/**" location="/resources/" cache-period="31556926" />
 	<mvc:annotation-driven />
 	<mvc:default-servlet-handler />

@@ -8,10 +8,25 @@
     	<put-attribute name="title" value="Home" />  
         <put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
     </definition>
- 
-    <definition name="welcome" extends="base.definition">
-        <put-attribute name="title" value="Welcome.." />  
-        <put-attribute name="body" value="/WEB-INF/jsp/welcome.jsp" />
+    
+    <definition name="planear" extends="base.definition">
+        <put-attribute name="title" value="Planear Rota" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/planear.jsp" />
+    </definition>
+    
+    <definition name="pertodesi" extends="base.definition">
+        <put-attribute name="title" value="Perto de Si" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/pertodesi.jsp" />
+    </definition>
+    
+     <definition name="contacto" extends="base.definition">
+        <put-attribute name="title" value="Contactos" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/contacto.jsp" />
+    </definition>
+    
+    <definition name="faq" extends="base.definition">
+        <put-attribute name="title" value="Ajuda" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/faq.jsp" />
     </definition>
     
 </tiles-definitions>
