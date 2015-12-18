@@ -13,12 +13,12 @@
 		</div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav pull-right">
-				<li class="active"><a href="index">In&iacute;cio</a></li>
-				<li><a href="planear">Planear Percurso</a></li>
-				<li><a href="pertodesi">Perto de Si</a></li>
+				<li class="indexmenu"><a href="index">In&iacute;cio</a></li>
+				<li class="planearmenu"> <a href="planear">Planear Percurso</a></li>
+				<li class="perto" ><a href="pertodesi">Perto de Si</a></li>
 				<!--<li class="active"><a href="live.html">Mapa Tempo Real </a></li>!-->
-				<li><a href="contacto">Contacte-nos</a></li>
-				<li><a href="faq">Ajuda</a></li>
+				<li class="contactomenu"><a href="contacto">Contacte-nos</a></li>
+				<li class="faqmenu"><a href="faq">Ajuda</a></li>
 				<li>
 				<!--<div class="col-lg-3"> -->
 				<form class="navbar-form navbar-left" role="search">

@@ -1,4 +1,9 @@
 
+<script type="text/javascript" language="javascript" class="init">
+   $(document).ready(function() {
+	$('.faqmenu').addClass('active');
+   } );
+</script>
 
 <div class="container">
 	<div class="row">

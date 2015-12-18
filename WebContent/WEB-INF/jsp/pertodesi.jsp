@@ -8,13 +8,19 @@
 
 <script type="text/javascript" language="javascript" class="init">
    $(document).ready(function() {
-   $('table.display').dataTable( {
-       "info": false,
-         "bServerSide ": false,
-           "sDom": '<"top"i>rt<"bottom"lp><"clear">',
-         "paging":false
-           } );
-       } );
+   
+   
+	$('.perto').addClass('active');
+	
+	$('table.display').dataTable( {
+	       "info": false,
+	         "bServerSide ": false,
+	           "sDom": '<"top"i>rt<"bottom"lp><"clear">',
+	         "paging":false
+	           } );
+	
+   } );
+   
 </script>
 
 <!-- container -->

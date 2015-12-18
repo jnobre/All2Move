@@ -1,3 +1,9 @@
+<script type="text/javascript" language="javascript" class="init">
+   $(document).ready(function() {
+	$('.indexmenu').addClass('active');
+   } );
+</script>
+
 <div class="container text-center">
 	<br><br>
 	<h3>All2Move</h3>

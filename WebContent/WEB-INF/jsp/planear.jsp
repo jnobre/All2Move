@@ -9,7 +9,10 @@
 
 <script src="https://maps.googleapis.com/maps/api/js?key=&amp;sensor=false&amp;extension=.js"></script> 
 <script src="${mapgoogleJS}"></script>
-<script>
+<script type="text/javascript" language="javascript" class="init">
+	$(document).ready(function() {
+		$('.planearmenu').addClass('active');
+	} );
 	var pontos = 2;
 	var limitepontos=6; 
 	function addRota() {
